@@ -1,0 +1,80 @@
+[
+    {
+        "employee": "Melissa",
+        "date and time": "2019/05/26 01:17PM",
+        "pizza": "Margherita",
+        "total": "6.03"
+    },
+    {
+        "employee": "Sylvia",
+        "date and time": "22019/05/27 01:19PM",
+        "pizza": "Quattro Stagioni",
+        "total": "6.74"
+    },
+    {
+        "employee": "Juliette",
+        "date and time": "2019/05/28 02:23PM",
+        "pizza": "Salami",
+        "total": "6.38"
+    },
+    {
+        "employee": "Melissa",
+        "date and time": "2019/05/29 02:36PM",
+        "pizza": "Tuna",
+        "total": "6.91"
+    },
+    {
+        "employee": "Sylvia",
+        "date and time": "2019/06/01 02:41PM",
+        "pizza": "Margherita",
+        "total": "6.03"
+    },
+    {
+        "employee": "Juliette",
+        "date and time": "2019/06/10 02:49PM",
+        "pizza": "Quattro Stagioni",
+        "total": "6.74"
+    },
+    {
+        "employee": "Melissa",
+        "date and time": "2019/06/11 02:57PM",
+        "pizza": "Salami",
+        "total": "6.38"
+    },
+    {
+        "employee": "Sylvia",
+        "date and time": "2019/06/12 03:01PM",
+        "pizza": "Tuna",
+        "total": "6.91"
+    },
+    {
+        "employee": "Juliette",
+        "date and time": "2019/06/26 03:02PM",
+        "pizza": "Margherita",
+        "total": "6.03"
+    },
+    {
+        "employee": "Sylvia",
+        "date and time": "2019/07/16 03:11PM",
+        "pizza": "Quattro Stagioni",
+        "total": "6.74"
+    },
+    {
+        "employee": "Juliette",
+        "date and time": "2019/07/17 03:26PM",
+        "pizza": "Salami",
+        "total": "6.38"
+    },
+    {
+        "employee": "Melissa",
+        "date and time": "2019/07/18 03:28PM",
+        "pizza": "Tuna",
+        "total": "6.91"
+    },
+    {
+        "employee": "Sylvia",
+        "date and time": "2019/07/19 03:31PM",
+        "pizza": "Quattro Stagioni",
+        "total": "6.74"
+    }
+]
