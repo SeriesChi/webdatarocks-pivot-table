@@ -62,7 +62,7 @@ const data = {
 
 const PivotTable = () => {
     const [report, _] = useState(data);
-    const [isReport, setisReport] = useState(false);
+    const [isReport, setIsReport] = useState(false);
     const [isGoogleChart, setIsGoogleChart] = useState(false);
     const pivotRef: any = useRef(null);
     const chartRef: any = useRef(null);
@@ -71,13 +71,6 @@ const PivotTable = () => {
         packages: ["corechart"],
     });
     window.google.charts.setOnLoadCallback(onGoogleChartsLoaded);
-
-    function onGoogleChartsLoaded() {
-        setIsGoogleChart(true);
-        if (isReport) {
-            createGoogleChart();
-        }
-    }
 
     const createGoogleChart = () => {
         if (isGoogleChart) {
@@ -90,6 +83,13 @@ const PivotTable = () => {
             );
         }
     };
+
+    function onGoogleChartsLoaded() {
+        setIsGoogleChart(true);
+        if (isReport) {
+            createGoogleChart();
+        }
+    }
 
     const drawChart = (_data: any) => {
         const data = window.google.visualization.arrayToDataTable(_data.data);
@@ -108,7 +108,7 @@ const PivotTable = () => {
     };
 
     return (
-        <>
+        <div style={{ display: "flex" }}>
             <WebDataRocksReact.Pivot
                 ref={pivotRef}
                 toolbar={true}
@@ -116,12 +116,12 @@ const PivotTable = () => {
                 report={report}
                 reportcomplete={function () {
                     pivotRef?.current?.webdatarocks?.off("reportcomplete");
-                    setisReport(true);
+                    setIsReport(true);
                     createGoogleChart();
                 }}
             />
-            <div ref={chartRef} style={{ height: "500px", width: "900px" }} />
-        </>
+            <div ref={chartRef} style={{ height: "500px", width: "50%" }} />
+        </div>
     );
 };
 
