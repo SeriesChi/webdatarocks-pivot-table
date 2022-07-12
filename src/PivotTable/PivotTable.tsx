@@ -31,6 +31,7 @@ const jsonData = [
     ["Juliette", "2019/07/17 03:26PM", "Salami", 6.38],
     ["Melissa", "2019/07/18 03:28PM", "Tuna", 6.91],
     ["Sylvia", "2019/07/19 03:31PM", "Quattro Stagioni", 6.74],
+    ["Sylvia", "2019/07/20 03:31PM", "Quattro Stagioni", 6.74],
 ];
 
 const data = {
